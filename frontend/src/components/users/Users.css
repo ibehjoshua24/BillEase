@@ -1,0 +1,227 @@
+.dash {
+    background-color:gray;
+    color: rgb(43, 42, 58);
+    height: 100%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+    /* position:relative ; */
+    top: 0;
+    left: 0; 
+    position: fixed;
+    padding-top: 20px;
+    /* padding-left: px; */ 
+    /* overflow-y: auto;  */
+}
+
+.lists::-webkit-scrollbar {
+    width: 5px;
+}
+
+.lists::-webkit-scrollbar-thumb {
+    background-color: rgb(241, 232, 232);
+    border-radius: 10px;
+}
+
+/* .header {
+    background-color: blue;
+    position: absolute;
+    width: 100%;
+} */
+
+.lists div {
+    border-bottom: 1px solid rgb(67, 66, 87);
+    padding: 20px;
+    width: 100%;
+    
+    text-decoration: none;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-around; */
+ 
+}
+
+.lists div:hover {
+    background-color: rgb(225, 226, 243);
+}
+
+
+
+
+
+.lists  {
+    /* color: rgb(1, 1, 1); */
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+
+#arrow {
+    position: relative;
+    right: 20px;
+    
+}
+
+#listit {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: rgb(45, 54, 62);
+    /* border: 2px black solid; */
+}
+
+#inside {
+    list-style: none;
+}
+
+#inside li  {
+    /* border: 2px solid black; */
+    font-size: 14px;
+    width: 128px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#inside li:hover {
+    background-color:white;
+}
+
+.lists div:active {
+    background-color: blueviolet;
+}
+
+#second {
+    color:  rgb(45, 45, 61);;
+    text-decoration: none;
+}
+
+
+
+.nav {
+    display: flex;
+    background-color: rgb(45, 45, 61);
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+#user {
+    height: 50px;
+    width: 50px;
+}
+
+#down {
+    position: relative;
+    right: 20px;
+}
+
+/* .side {
+    display: flex;
+    
+} */
+
+.side1 {
+    background-color: aqua;
+    color: rgb(9, 8, 9);
+    width: 300px;
+    position: relative;
+    top: 130px;
+    width: 700px;
+    left: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .sides {
+    margin-left: 200px;
+    margin-top: 100px;
+} */
+
+
+.fund {
+    /* margin-left: 500px; */
+    position: relative;
+    left: 500px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 2px solid white;
+    /* padding: 10px; */
+    /* display: flex;
+    flex-direction: row; */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    color: rgb(47, 47, 55);
+    text-align: center;
+
+}
+
+.fund a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.fund:hover {
+    background-color: white;
+    color: rgb(67, 67, 82);
+}
+
+.dashtext {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.wallet {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid bisque; */
+    /* column-gap: 20px; */
+}
+
+#wallex {
+    margin-right: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#wallex:hover {
+    background-color: white;
+    color: rgb(57, 57, 78);
+    cursor: pointer;
+    /* padding: 3px; */
+}
+
+.header {
+    background-color: gray;
+    height: 100px;
+}
+
+.signout {
+    display: flex;
+    gap: 20px;
+}
+
+.signout p {
+    margin-top: 10px;
+    background-color: azure;
+    color: black;
+    padding: 3px;
+    position: relative;
+    cursor: pointer;
+}

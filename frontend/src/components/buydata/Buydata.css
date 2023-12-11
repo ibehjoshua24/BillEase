@@ -1,0 +1,42 @@
+.data {
+    background-color: aqua;
+    width: 300px;
+    position: relative;
+    top: 130px;
+    width: 700px;
+    left: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.data button {
+    height: 50px;
+    font-weight: bold;
+}
+
+.data button:hover {
+    background-color: rgb(196, 190, 190);
+}
+
+.data h3 {
+    text-align: center;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#datalist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#datalist input {
+    border-radius: 10px;
+    height:  40px;
+    border: none;
+}

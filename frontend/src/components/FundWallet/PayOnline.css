@@ -1,0 +1,27 @@
+.payonline {
+    background-color: aqua;
+    position: relative;
+    top: 150px;
+    width: 700px;
+    left: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pays {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pays button {
+    height: 40px;
+    font-weight: bold;
+}
+
+.charge {
+    display: flex;
+}
+

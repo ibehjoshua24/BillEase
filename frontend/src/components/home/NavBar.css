@@ -1,0 +1,61 @@
+#nav {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#list {
+    font-weight: bold;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+#list:hover {
+    color: rgb(93, 101, 109);
+}
+
+#lists {
+    margin-left: 170px;
+    gap: 20px;
+}
+
+.btn {
+    /* margin-left: 10px; */
+    display: flex;
+    
+}
+
+#btn1 {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(33,37,41);
+}
+
+#btn1:hover {
+    background-color:rgb(21, 23, 26);
+    
+}
+
+#btn2 {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: aliceblue;
+    color: rgb(33,37,41);
+}
+
+#btn2:hover {
+    background-color: rgb(21, 23, 26);
+    color: aliceblue;
+}

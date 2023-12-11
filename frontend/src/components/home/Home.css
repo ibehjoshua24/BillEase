@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    /* border: 2px black solid; */
+    /* padding-left: 50px; */
+    padding-top: 90px;
+    padding-bottom: 25px;
+   
+    
+}
+
+#home {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightblue;
+    
+}
+
+.img1 {
+    height: 500px;
+    width: 600px;
+    /* border: 2px solid black; */
+    z-index: 0;
+    position: relative;
+    right: 70px;
+    /* margin-right: 400px; */
+}
+
+.hometext {
+    margin-top: 110px;
+    /* border: 2px black solid; */
+    width: 1000px;
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+
+.hometext h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    /* width: 400px; */
+}
+
+.hometext p {
+    font-size: 24px;
+    width: 500px;
+    /* width: 500px; */
+}
+
+/* about section start here */
+
+#About {
+    padding: 100px 50px 50px 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.img2 {
+    height: 400px;
+    margin-top: 60px;
+}
+
+.abouttext h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.abouttext p {
+    font-size: 20px;
+}
+
+.car {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    
+}
+
+.car1 {
+    width: 150px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.car1 h3{
+    font-weight: bold;
+}
+
+.car1 p {
+    font-weight: 30px;
+}
+
+
+
+#service {
+    padding: 100px 50px 50px 50px;
+    text-align: center;
+}
+
+.servicetext h2 {
+    font-weight: bold;
+    font-size:50px ;
+}
+
+.servicetext p {
+    font-size: 20px;
+}
+
+#aboutcard1 {
+    background-color: lightblue;
+    padding: 10px 30px;
+    text-align: left;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+#aboutcard1 h4 {
+    font-weight: bold;
+}
+
+#aboutcard1 p {
+    font-size: 14px;
+}
+
+.aboutcard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+
+#choice {
+    padding: 100px 50px 50px 50px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.choiceText h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#choiceimg {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#choicecard {
+    display: flex;
+    /* border: 2px solid black; */
+    text-align: left;
+    gap: 20px;
+    width: 400px;
+
+}
+
+#choicecard h3 {
+    font-size: 20px;
+}
+
+
+
+#contact {
+    padding: 100px 50px 70px 50px;
+    text-align: center;
+    /* background-color: lightblue; */
+}
+
+.contacttext h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contacttext p {
+    font-size: 20px;
+}
+
+.contactcard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+#contactcards {
+    background-color: lightblue;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+#contactcards h3 {
+    font-weight: bold;
+}
+
+#footer {
+    padding: 100px 90px 50px 100px;
+    
+    color: aliceblue;
+    background-color: rgb(41, 41, 49);
+
+}
+
+.foottext {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 70px;
+}
+
+.terms {
+    display: flex;
+    gap: 40px;
+}
+
+.copyright {
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.footerlist li {
+    list-style: none;
+}
+
+.footerlist li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+

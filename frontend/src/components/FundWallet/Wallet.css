@@ -1,0 +1,29 @@
+.wall {
+    background-color: aqua;
+    position: relative;
+    top: 150px;
+    width: 700px;
+    left: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.walls {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+#insides {
+    background-color: aliceblue;
+}
+
+#insides li {
+    list-style: none;
+    padding: 10px;
+}
+
+#insides li:hover {
+    background-color: rgb(70, 118, 159);
+}
