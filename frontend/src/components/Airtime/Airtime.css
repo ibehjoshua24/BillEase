@@ -1,5 +1,7 @@
 .airtime {
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
     width: 300px;
     position: relative;
     top: 130px;
@@ -28,4 +30,9 @@
 
 .airtime button:hover {
     background-color: rgb(196, 190, 190);
+}
+
+#inputs {
+    /* left-padding: */
+    padding-left: 20px
 }

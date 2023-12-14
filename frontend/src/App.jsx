@@ -10,6 +10,7 @@ import Wallet from './components/FundWallet/Wallet'
 import Buydata from './components/buydata/Buydata'
 import Airtime from './components/Airtime/Airtime'
 import PayOnline from './components/FundWallet/PayOnline'
+import ResetPassword from './components/Login/ResetPassword'
 
 
 
@@ -37,6 +38,7 @@ function App() {
        <Route path='/BuyData' element={<Buydata/>}></Route>
        <Route path='/Airtime' element={<Airtime/>}></Route>
        <Route path='/PayOnline' element={<PayOnline/>}></Route>
+       <Route path='/Reset_Password' element={<ResetPassword/>}></Route>
        
        </Routes>
     </>

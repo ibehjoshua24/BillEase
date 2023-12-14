@@ -66,6 +66,7 @@ const Wallet = () => {
                 </ul>)}
 
             {selectedName &&  <Link to="/PayOnline"><button>Proceed</button></Link>}
+            {/* {selectName('MANUAL BANK') &&  <Link to="/PayOnline"><button>Proceed</button></Link>} */}
 
         </div>
         </div>

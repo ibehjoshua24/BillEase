@@ -1,5 +1,7 @@
 .data {
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
     width: 300px;
     position: relative;
     top: 130px;
@@ -39,4 +41,11 @@
     border-radius: 10px;
     height:  40px;
     border: none;
+    border: 1px solid gray;
+}
+
+#inputs {
+    /* left-padding: */
+    padding-left: 20px;
+    
 }

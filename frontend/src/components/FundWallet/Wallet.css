@@ -1,5 +1,7 @@
 .wall {
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
     position: relative;
     top: 150px;
     width: 700px;
@@ -25,5 +27,5 @@
 }
 
 #insides li:hover {
-    background-color: rgb(70, 118, 159);
+    background-color: gray;
 }
